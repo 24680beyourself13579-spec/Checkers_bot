@@ -1,4 +1,4 @@
-# ♟️ Checkers AI
+# ♟️ Checkers_bot
 
 A Python-based Checkers engine and AI sandbox built to explore adversarial search algorithms. As a computer science student, I developed this project as a practical way to dive deeper into game theory and machine learning concepts. It features a fully playable ruleset, two different AI opponents, and a custom web interface. 
 
