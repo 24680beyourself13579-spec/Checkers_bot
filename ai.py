@@ -11,9 +11,9 @@ from game import (
 def evaluate(board, ai_color):
     w, wk, b, bk = count_pieces(board)
     if ai_color == WHITE:
-        return (w + wk) - (b + 2 * bk)
+        return (w + 1.5 * wk) - (b + 2 * bk)
     else:
-        return (b + bk) - (w + 2 * wk)
+        return (b + 1.5 * bk) - (w + 2 * wk)
 
 def minimax(board, depth, alpha, beta, maximizing, ai_color, human_color):
     current_color = ai_color if maximizing else human_color
