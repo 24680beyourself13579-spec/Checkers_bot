@@ -13,7 +13,7 @@ def evaluate(board, ai_color):
     if ai_color == WHITE:
         return (w + 2 * wk) - 2 * (b + 2 * bk)
     else:
-        return (b + 2 * bk) - 2 * (w + 2 * wk)
+        return (b + 2 * bk) - 0.5 * (w + 2 * wk)
 
 def minimax(board, depth, alpha, beta, maximizing, ai_color, human_color):
     current_color = ai_color if maximizing else human_color
